@@ -10,7 +10,7 @@ export class App extends Component {
     return (
       <div>
         <nav>
-          <Link to="/">Page 1</Link>
+          <Link to="/page1">Page 1</Link>
           <Link to="/page2">Page 2</Link>
         </nav>
         {this.props.children}
